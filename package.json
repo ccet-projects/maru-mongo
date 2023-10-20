@@ -1,0 +1,37 @@
+{
+    "name": "@maru/mongo",
+    "version": "1.0.0",
+    "description": "Mongo component for Maru framework",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ccet-projects/maru-mongo.git"
+    },
+    "homepage": "https://github.com/ccet-projects/maru-mongo#readme",
+    "author": "Sergey Lukin <contact@lukin.site>",
+    "license": "UNLICENSED",
+    "type": "module",
+    "exports": "./index.js",
+    "scripts": {
+        "test": "node --test"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "mongodb": "^6.1.0"
+    },
+    "peerDependencies": {
+        "maru": "github:ccet-projects/maru#v1.0.4"
+    },
+    "devDependencies": {
+        "eslint": "x",
+        "eslint-config-maru": "github:ccet-projects/eslint-config-maru",
+        "eslint-plugin-import": "x"
+    },
+    "eslintConfig": {
+        "root": true,
+        "extends": [
+            "maru"
+        ]
+    }
+}
