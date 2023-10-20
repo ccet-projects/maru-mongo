@@ -36,7 +36,7 @@ app.start();
 
 Пример файла конфигурации
 
-```json
+```js
 {
     host: 'localhost',
     port: 27017,
@@ -52,7 +52,7 @@ app.start();
 
 Пример файла конфигурации для подключения к нескольким базам данных
 
-```json
+```js
 {
     connection1: {
         host: 'localhost',
